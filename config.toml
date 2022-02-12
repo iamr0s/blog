@@ -52,7 +52,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   name = "打赏"
   weight = 40
   identifier = "reward"
-  url = "/post/reward/main/"
+  url = "/post/1/"
 
 [params]
   version = "4.x"           # Used to give a friendly message when you have an incompatible update
@@ -72,7 +72,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   archivePaginate = 50
 
   # show 'xx Posts In Total' in archive page ?            # 是否在归档页显示文章的总数
-  showArchiveCount = false
+  showArchiveCount = true
 
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
   dateFormatToUse = "2006-01-02"
@@ -183,8 +183,8 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 
   [params.reward]                                         # 文章打赏
     enable = true
-    wechat = "/img/reward/wechat-qr-code.png"           # 微信二维码
-    alipay = "/img/reward/alipay-qr-code.png"           # 支付宝二维码
+    wechat = "/img/1.png"           # 微信二维码
+    alipay = "/img/2.png"           # 支付宝二维码
 
   [params.social]                                         # 社交链接
     a-email = "mailto:your@email.com"
